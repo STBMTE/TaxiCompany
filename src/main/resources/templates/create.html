@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавить</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<a href="/" class="link"><i data-feather="arrow-left" class="plus exit"></i></a>
+<form method="post" class="driver">
+    <div class="form-field">
+        <input id="firstName" name="firstName" class="firstName" placeholder="Name">
+        <input id="lastName" name="lastName" class="lastName" placeholder="Last Name">
+        <input id="surname" name="surname" class="surname" placeholder="Surname">
+        <input id="licenseNum" name="licenseNum" class="licenseNum" placeholder="Licens Number">
+        <input id="expirationDate" name="expirationDate" class="expirationDate" placeholder="Expiration Date">
+        <input id="address" name="address" class="address" placeholder="Address">
+        <input id="age" name="age" class="age" placeholder="Age">
+        <input id="phoneNumber" name="phoneNumber" class="phoneNumber" placeholder="Phone Number">
+        <button data-feather="check" class="plus addBtn" id="add">button</button>
+    </div>
+</form>
+</body>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="/add.js"></script>
+</html>
